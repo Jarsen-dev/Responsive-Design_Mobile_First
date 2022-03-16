@@ -146,8 +146,13 @@ main {
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    margin: 0 20px;
     font-family: 'Inter', sans-serif;
+}
+.main--currency-table {
+    margin: 0 40px;
+}
+.main--comissions-table {
+    margin: 0 40px 0 0;
 }
 .main--currency-table .currency--table-title {
     margin-bottom: 15px;
@@ -328,7 +333,7 @@ main {
     width: 100%;
     min-width: 320px;
     height: 50vh;
-    background-image: url('./assets/img/photo.jpg');
+    background-image: url('./assets/img/photo1x.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
